@@ -1,0 +1,57 @@
+body
+{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a7d698+0,b2bc7e+50,e2d098+100 */
+background: #a7d698; /* Old browsers */
+background: -moz-linear-gradient(left,  #a7d698 0%, #b2bc7e 50%, #e2d098 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #a7d698 0%,#b2bc7e 50%,#e2d098 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #a7d698 0%,#b2bc7e 50%,#e2d098 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7d698', endColorstr='#e2d098',GradientType=1 ); /* IE6-9 */
+
+}
+
+
+
+form{
+	font-size:20px;
+	width:50%;
+	font-family:italic;
+	text-align:left;
+	margin-left:300px;
+}
+#fn{
+	width :300px;
+	
+}
+#ln{
+	width :300px;
+	
+}
+#dob{
+	width :300px;
+	
+}
+#email{
+	width :300px;
+	
+}
+#pn{
+	width :300px;
+	
+}
+#pwd{
+	width :300px;
+	
+}
+#cpwd{
+	width :300px;
+	
+}
+#sub{
+	width : 100px;
+	color:blue;
+}
+#fo{
+	color:black;
+	border-style:solid;
+	
+}

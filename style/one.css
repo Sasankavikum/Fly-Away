@@ -1,0 +1,44 @@
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+    float: left;
+    width: 40%;
+    padding: 5px;
+  }
+
+.container {
+    position: relative;
+    width: 600px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 550px;
+    height: 500px;
+    transition: .5s;
+    backface-visibility: hidden;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  
+
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 0.8;
+}
+
+.text {
+  text-align: center;
+  background-color: #1acac1;
+  color: white;
+  font-size: 16px;
+  padding: 16px 16px;
+}

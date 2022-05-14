@@ -1,0 +1,19 @@
+.h1{
+    font-family:Lucida Console;
+    font-size:50px;
+    font-weight: bold;
+    text-align:center;
+    background: rgb(59, 113, 212);
+	color:rgb(239, 245, 235);
+}
+.p{
+    font-size: 14px;
+    color: black;
+    font-family: sans-serif;
+
+}
+.image{
+    position: relative;
+    width: 700px;
+    float: left;
+}

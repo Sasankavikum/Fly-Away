@@ -1,0 +1,15 @@
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: rgb(116, 96, 124);
+}
+table.productdata{
+	background-color:rgb(221, 216, 216);
+	border:10px  groove darkblue;
+	width:1330px;
+	color:rgb(147, 189, 92);
+}
+
+li {
+	float: left;
+	
+}

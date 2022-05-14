@@ -1,0 +1,41 @@
+
+form{
+   display: table-row;
+}
+
+.container{
+    display: inline;
+    position: relative;
+	font-size:20px;
+	width:50%;
+	font-family:italic;
+	text-align:left;
+	margin-left:300px;
+}
+
+.button{
+    
+        background-color: #36cab2; /* Green */
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+      
+      .button1 {
+        background-color: rgb(255, 255, 255); 
+        color: black; 
+        border: none;
+      }
+      
+      .button1:hover {
+        background-color: #fc5d5d;
+        color: black;
+        color: white;
+      }

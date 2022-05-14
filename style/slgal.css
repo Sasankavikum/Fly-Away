@@ -1,0 +1,69 @@
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+  float: left;
+  width: 700px;
+  height: 415px;
+  padding: 5px;
+}
+
+.container {
+  position: relative;
+  width: 700px;
+  height: 415px;
+  display: flex;
+  
+}
+
+.image {
+  opacity: 0.8;
+  display: block;
+  width: 700px;
+  height: 415px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding: 50px;
+}
+
+.middle {
+  align-items: center;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  align-items: center;
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 0.8;
+}
+
+.button{
+  height: 100px;
+  width: 250px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    background-color: brown forestgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: gold;
+}
+.p{
+position: relative;
+text-align: left;
+padding-bottom: 70px;
+display: table;
+font-size: 24px;
+font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: blueviolet;
+}
